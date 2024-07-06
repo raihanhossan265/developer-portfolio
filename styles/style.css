@@ -13,8 +13,28 @@ body{
     border-radius: 5px;
     font-weight: 700;
 }
+main{
+    max-width: 1140px;
+    text-align: center;
+    margin: auto;
+}
+
+main section{
+    margin-top: 80px;
+}
+.heading-primary{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.pregraph-primary{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
 
 /* nav related css */
+nav{
+    padding: 0px 200px;
+}
 .nav-header{
     display: flex;
     justify-content: space-between;
@@ -37,4 +57,56 @@ body{
 .nav-right > ul > li > a {
     text-decoration: none;
     color: black;
+}
+
+
+/* banner section  */
+.banner-container{
+    display: flex;
+    align-items: center;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    background-position: right bottom;
+    padding: 50px 30px 0px 150px;
+}
+/* .banner-dev-bg{
+    background-image: url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+} */
+header{
+    background-color: #fff8f3;
+}
+.banner-left{
+    margin-right: 450px;
+}
+.banner-greeting{
+    font-size: 2rem;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-description{
+    font-size: 1.5rem;
+    color: gray;
+}
+/* about me section  */
+.about-me{
+    background-color: #fff8f3;
+    padding: 150px 100px;
+}
+.about-me-info-container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.about-me-info{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.about-me-description{
+    font-size: 1.3rem;
+    font-weight: 800;
 }
